@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-09-28T13:48:37.185Z</updated>
+  <updated>2019-09-28T13:50:26.194Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/09/28/webpack%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5/"/>
     <id>http://yoursite.com/2019/09/28/webpack安装失败/</id>
     <published>2019-09-28T13:43:26.000Z</published>
-    <updated>2019-09-28T13:48:37.185Z</updated>
+    <updated>2019-09-28T13:50:26.194Z</updated>
     
     <content type="html"><![CDATA[<h4 id="今天做东西需要到了很久没有用都快忘了得webpack哈哈哈-捣鼓了一会-安装了几次一直安装失败报错内容日如下就"><a href="#今天做东西需要到了很久没有用都快忘了得webpack哈哈哈-捣鼓了一会-安装了几次一直安装失败报错内容日如下就" class="headerlink" title="今天做东西需要到了很久没有用都快忘了得webpack哈哈哈 捣鼓了一会   安装了几次一直安装失败报错内容日如下就"></a>今天做东西需要到了很久没有用都快忘了得webpack哈哈哈 捣鼓了一会   安装了几次一直安装失败报错内容日如下就</h4><pre><code>One CLI for webpack must be installed. These are recommended choices, delivered as separate packages: - webpack-cli (https://github.com/webpack/webpack-cli)   The original webpack full-featured CLI.We will use &quot;npm&quot; to install the CLI via &quot;npm install -D&quot;.Do you want to install &apos;webpack-cli&apos; (yes/no): yesInstalling &apos;webpack-cli&apos; (running &apos;npm install -D webpack-cli&apos;)...npm ERR! code EINVALIDPACKAGENAMEnpm ERR! Invalid package name &quot;_cross-spawn@6.0.5@cross-spawn&quot;: name cannot start with an underscore; name can only contain URL-friendly charactersnpm ERR! A complete log of this run can be found in:npm ERR!     C:\Users\Administrator\AppData\Roaming\npm-cache\_logs\2019-09-25T02_18_08_557Z-debug.logundefined</code></pre><p>百度了一下<br>先全局安装webpack和webpack-cli<br>npm install webpack -g<br>npm install webpack-cli -g<br>再局部安装webpack和webpack-cli<br>npm install webpack –save-dev<br>npm install webpack-cli –save-dev<br>这样就可以了   </p>]]></content>
     
@@ -35,7 +35,7 @@
     </summary>
     
     
-      <category term="webpack安装" scheme="http://yoursite.com/tags/webpack%E5%AE%89%E8%A3%85/"/>
+      <category term="webpack" scheme="http://yoursite.com/tags/webpack/"/>
     
   </entry>
   
