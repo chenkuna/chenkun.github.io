@@ -5,9 +5,9 @@
   <subtitle>十年磨一剑</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2019-09-28T13:50:26.194Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://chenkun.de/"/>
+  <updated>2019-09-29T01:58:43.165Z</updated>
+  <id>https://chenkun.de/</id>
   
   <author>
     <name>陈坤</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>webpack安装失败</title>
-    <link href="http://yoursite.com/2019/09/28/webpack%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5/"/>
-    <id>http://yoursite.com/2019/09/28/webpack安装失败/</id>
+    <link href="https://chenkun.de/2019/09/28/webpack%E5%AE%89%E8%A3%85%E5%A4%B1%E8%B4%A5/"/>
+    <id>https://chenkun.de/2019/09/28/webpack安装失败/</id>
     <published>2019-09-28T13:43:26.000Z</published>
-    <updated>2019-09-28T13:50:26.194Z</updated>
+    <updated>2019-09-29T01:58:43.165Z</updated>
     
-    <content type="html"><![CDATA[<h4 id="今天做东西需要到了很久没有用都快忘了得webpack哈哈哈-捣鼓了一会-安装了几次一直安装失败报错内容日如下就"><a href="#今天做东西需要到了很久没有用都快忘了得webpack哈哈哈-捣鼓了一会-安装了几次一直安装失败报错内容日如下就" class="headerlink" title="今天做东西需要到了很久没有用都快忘了得webpack哈哈哈 捣鼓了一会   安装了几次一直安装失败报错内容日如下就"></a>今天做东西需要到了很久没有用都快忘了得webpack哈哈哈 捣鼓了一会   安装了几次一直安装失败报错内容日如下就</h4><pre><code>One CLI for webpack must be installed. These are recommended choices, delivered as separate packages: - webpack-cli (https://github.com/webpack/webpack-cli)   The original webpack full-featured CLI.We will use &quot;npm&quot; to install the CLI via &quot;npm install -D&quot;.Do you want to install &apos;webpack-cli&apos; (yes/no): yesInstalling &apos;webpack-cli&apos; (running &apos;npm install -D webpack-cli&apos;)...npm ERR! code EINVALIDPACKAGENAMEnpm ERR! Invalid package name &quot;_cross-spawn@6.0.5@cross-spawn&quot;: name cannot start with an underscore; name can only contain URL-friendly charactersnpm ERR! A complete log of this run can be found in:npm ERR!     C:\Users\Administrator\AppData\Roaming\npm-cache\_logs\2019-09-25T02_18_08_557Z-debug.logundefined</code></pre><p>百度了一下<br>先全局安装webpack和webpack-cli<br>npm install webpack -g<br>npm install webpack-cli -g<br>再局部安装webpack和webpack-cli<br>npm install webpack –save-dev<br>npm install webpack-cli –save-dev<br>这样就可以了   </p>]]></content>
+    <content type="html"><![CDATA[<h4 id="今天做东西需要到了很久没有用都快忘了得webpack哈哈哈-捣鼓了一会-安装了几次一直安装失败报错内容日如下就"><a href="#今天做东西需要到了很久没有用都快忘了得webpack哈哈哈-捣鼓了一会-安装了几次一直安装失败报错内容日如下就" class="headerlink" title="今天做东西需要到了很久没有用都快忘了得webpack哈哈哈 捣鼓了一会   安装了几次一直安装失败报错内容日如下就"></a>今天做东西需要到了很久没有用都快忘了得webpack哈哈哈 捣鼓了一会   安装了几次一直安装失败报错内容日如下就</h4><pre><code>One CLI for webpack must be installed. These are recommended choices, delivered as separate packages: - webpack-cli (https://github.com/webpack/webpack-cli)   The original webpack full-featured CLI.We will use &quot;npm&quot; to install the CLI via &quot;npm install -D&quot;.Do you want to install &apos;webpack-cli&apos; (yes/no): yesInstalling &apos;webpack-cli&apos; (running &apos;npm install -D webpack-cli&apos;)...npm ERR! code EINVALIDPACKAGENAMEnpm ERR! Invalid package name &quot;_cross-spawn@6.0.5@cross-spawn&quot;: name cannot start with an underscore; name can only contain URL-friendly charactersnpm ERR! A complete log of this run can be found in:npm ERR!     C:\Users\Administrator\AppData\Roaming\npm-cache\_logs\2019-09-25T02_18_08_557Z-debug.logundefined</code></pre><p>百度了一下<br>先全局安装webpack和webpack-cli<br>npm install webpack -g<br>npm install webpack-cli -g<br>再局部安装webpack和webpack-cli<br>npm install webpack –save-dev<br>npm install webpack-cli –save-dev<br>这样就可以了   </p><p>微信：ck2211314  做的不好还请多指教感谢  有需要的可以加我微信 也可以交个朋友</p><script src="https://utteranc.es/client.js" repo="nusr/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>]]></content>
     
     <summary type="html">
     
@@ -35,14 +35,14 @@
     </summary>
     
     
-      <category term="webpack" scheme="http://yoursite.com/tags/webpack/"/>
+      <category term="webpack" scheme="https://chenkun.de/tags/webpack/"/>
     
   </entry>
   
   <entry>
     <title>1.小程序页面布局实例详情页</title>
-    <link href="http://yoursite.com/2019/08/26/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%E5%AE%9E%E4%BE%8B/"/>
-    <id>http://yoursite.com/2019/08/26/小程序页面布局实例/</id>
+    <link href="https://chenkun.de/2019/08/26/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E9%A1%B5%E9%9D%A2%E5%B8%83%E5%B1%80%E5%AE%9E%E4%BE%8B/"/>
+    <id>https://chenkun.de/2019/08/26/小程序页面布局实例/</id>
     <published>2019-08-26T09:18:47.000Z</published>
     <updated>2019-08-29T06:46:28.279Z</updated>
     
@@ -58,14 +58,14 @@
     </summary>
     
     
-      <category term="小程序" scheme="http://yoursite.com/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+      <category term="小程序" scheme="https://chenkun.de/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>直白的话告诉你在 javascript 中如何用 jsonp 实现跨域请求</title>
-    <link href="http://yoursite.com/2019/07/09/my-first-blog/"/>
-    <id>http://yoursite.com/2019/07/09/my-first-blog/</id>
+    <link href="https://chenkun.de/2019/07/09/my-first-blog/"/>
+    <id>https://chenkun.de/2019/07/09/my-first-blog/</id>
     <published>2019-07-09T08:28:52.000Z</published>
     <updated>2019-08-27T14:12:16.026Z</updated>
     
@@ -82,7 +82,7 @@
     </summary>
     
     
-      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+      <category term="js" scheme="https://chenkun.de/tags/js/"/>
     
   </entry>
   
