@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenkun.de/"/>
-  <updated>2019-09-29T02:04:32.670Z</updated>
+  <updated>2019-10-08T08:14:49.517Z</updated>
   <id>https://chenkun.de/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>去input button间距得三种方法</title>
+    <link href="https://chenkun.de/2019/10/08/cssbutton/"/>
+    <id>https://chenkun.de/2019/10/08/cssbutton/</id>
+    <published>2019-10-08T07:54:20.000Z</published>
+    <updated>2019-10-08T08:14:49.517Z</updated>
+    
+    <content type="html"><![CDATA[<p>不去间距</p><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/cssinpubutton.png" alt="图片"></p><p>去过间距</p><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/cssinpubutton2.png" alt></p><p>如上图所示不去间距得时候input跟button之间会有个小缝隙   这并不是我们想要得方法如下</p><h5 id="1-在父级元素上添加font-size-0px"><a href="#1-在父级元素上添加font-size-0px" class="headerlink" title="1.在父级元素上添加font-size:0px;"></a>1.在父级元素上添加font-size:0px;</h5><pre><code>{    font-size:0px}</code></pre><h5 id="2-删除button-和-input-之间得空格"><a href="#2-删除button-和-input-之间得空格" class="headerlink" title="2.删除button 和 input 之间得空格"></a>2.删除button 和 input 之间得空格</h5><pre><code>错误&lt;input type=&quot;text&quot; placeholder=&quot;请输入商家或地点&quot;&gt;&lt;button&gt;按钮&lt;/button&gt;正确&lt;input type=&quot;text&quot; placeholder=&quot;请输入商家或地点&quot;&gt;&lt;button&gt;按钮&lt;/button&gt;</code></pre><h5 id="3-把左方得元素转换成块元素-添加上浮动"><a href="#3-把左方得元素转换成块元素-添加上浮动" class="headerlink" title="3.把左方得元素转换成块元素   添加上浮动"></a>3.把左方得元素转换成块元素   添加上浮动</h5><pre><code>input{    display:block;    float:left;}</code></pre><script src="https://utteranc.es/client.js" repo="nusr/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;不去间距&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/chenkuna/img-folder/master/cssinpubutton.png&quot; alt=&quot;图片&quot;&gt;&lt;/p&gt;
+&lt;p&gt;去过间距&lt;/p&gt;
+&lt;p&gt;&lt;img s
+      
+    
+    </summary>
+    
+    
+      <category term="css" scheme="https://chenkun.de/tags/css/"/>
+    
+  </entry>
   
   <entry>
     <title>webpack安装失败</title>
