@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenkun.de/"/>
-  <updated>2019-10-08T08:14:49.517Z</updated>
+  <updated>2019-10-12T07:21:01.937Z</updated>
   <id>https://chenkun.de/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>js常见面试题1</title>
+    <link href="https://chenkun.de/2019/10/12/jssite/"/>
+    <id>https://chenkun.de/2019/10/12/jssite/</id>
+    <published>2019-10-12T07:02:49.000Z</published>
+    <updated>2019-10-12T07:21:01.937Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="第一题"><a href="#第一题" class="headerlink" title="第一题"></a>第一题</h4><p>function setName(){<br>    name = “张三”<br>}setName()<br>console.log(‘setName’)<br>答案： 张三</p><h4 id="第二题"><a href="#第二题" class="headerlink" title="第二题"></a>第二题</h4><p>//考点：1.变量声明提升 2.变量搜索机制<br>var a = 1<br>function test(){<br>    console.log(a)<br>    var a = 1;<br>}test();<br>答案：undefined</p><h4 id="第三题"><a href="#第三题" class="headerlink" title="第三题"></a>第三题</h4><p>var b = 2;<br>function text2(){<br>    window.b=3;<br>    console.log();<br>}test2;<br>答案：3</p><h4 id="第四题"><a href="#第四题" class="headerlink" title="第四题"></a>第四题</h4><p>c=5; //声明一个全局变量c<br>function test3(){<br>    window.c=3;<br>    console.log(3)   答案：undefined,原因：由于此时得c是一个局部变量c，并没有被赋值<br>    var c;<br>    console.log(window.c); //答案：3,原因：这里得c就是一个全局变量c<br>}test3();</p><h4 id="第五题"><a href="#第五题" class="headerlink" title="第五题"></a>第五题</h4><p>var arr = [];<br>arr[0] = ‘a’;<br>arr[1] = ‘b’;<br>arr[10] = ‘c’;<br>alert(arr.length)//答案：11<br>console.log(arr[5]) //答案：undefined</p><h4 id="第六题"><a href="#第六题" class="headerlink" title="第六题"></a>第六题</h4><p>var a = 1;<br>console.log(a++); 答案：1<br>console.log(++a); 答案：3</p><h4 id="第七题"><a href="#第七题" class="headerlink" title="第七题"></a>第七题</h4><p>console.log(null==undefined) //答案：true<br>console.log(“1”==1) //答案：true,因为会将数字1先转换为字符串1<br>console.log(“1”===1) //答案：false,因为数据类型不一致</p><h4 id="第八题"><a href="#第八题" class="headerlink" title="第八题"></a>第八题</h4><p>微信：ck2211314  做的不好还请多指教感谢  有需要到我得地方 可以加我微信 也可以交个朋友</p><script src="https://utteranc.es/client.js" repo="nusr/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h4 id=&quot;第一题&quot;&gt;&lt;a href=&quot;#第一题&quot; class=&quot;headerlink&quot; title=&quot;第一题&quot;&gt;&lt;/a&gt;第一题&lt;/h4&gt;&lt;p&gt;function setName(){&lt;br&gt;    name = “张三”&lt;br&gt;}
+setName()&lt;br&gt;console.l
+      
+    
+    </summary>
+    
+    
+      <category term="js" scheme="https://chenkun.de/tags/js/"/>
+    
+  </entry>
   
   <entry>
     <title>去input button间距得三种方法</title>
