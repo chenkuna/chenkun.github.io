@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>有理想的咸鱼</title>
   
-  <subtitle>有时候烦躁的时候，不妨去听听音乐，好好的给自己放松一下， 忘记烦恼。</subtitle>
+  <subtitle>烦躁的时候，不妨去听听音乐，好好的给自己放松一下， 忘记烦恼。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenkun.de/"/>
-  <updated>2019-10-14T08:08:47.747Z</updated>
+  <updated>2019-10-15T14:42:58.330Z</updated>
   <id>https://chenkun.de/</id>
   
   <author>
@@ -21,16 +21,15 @@
     <link href="https://chenkun.de/2019/10/14/webapp02/"/>
     <id>https://chenkun.de/2019/10/14/webapp02/</id>
     <published>2019-10-14T07:54:12.000Z</published>
-    <updated>2019-10-14T08:08:47.747Z</updated>
+    <updated>2019-10-15T14:42:58.330Z</updated>
     
-    <content type="html"><![CDATA[<p>微信：ck2211314  做的不好还请多指教感谢  有需要到我得地方 可以加我微信 也可以交个朋友</p><script src="https://utteranc.es/client.js" repo="nusr/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>]]></content>
+    <content type="html"><![CDATA[<h1 id="项目技术栈介绍"><a href="#项目技术栈介绍" class="headerlink" title="项目技术栈介绍"></a>项目技术栈介绍</h1><h3 id="1-前端框架Vue-js和全家桶"><a href="#1-前端框架Vue-js和全家桶" class="headerlink" title="1.前端框架Vue.js和全家桶"></a>1.前端框架Vue.js和全家桶</h3><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5ce4128e000143de05000306.jpg" alt="vue.js图片" title="markdown"></p><p>说到Vue.js相信大家都不会陌生，可以说是当前国内最流行的前端框架MVVM框架，本次项目也会采用<code>Vue.js@2.6.10</code> 版本来进行开发，其中包括了<a href="https://router.vuejs.org/" target="_blank" rel="noopener">vue-router</a>,<a href="https://vuex.vuejs.org/zh/guide/" target="_blank" rel="noopener">vuex</a>。当然为了照顾一些Vue.js的初学者，在后面的实战代码编写中，会穿插讲解其相关的知识点。</p><h3 id="2-前端脚手架工具Vue-Cli-3"><a href="#2-前端脚手架工具Vue-Cli-3" class="headerlink" title="2.前端脚手架工具Vue  Cli 3"></a>2.前端脚手架工具Vue  Cli 3</h3><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5ce411b9000159ef05000200.jpg" alt="vue-cli图片"><br><a href="https://cli.vuejs.org" target="_blank" rel="noopener">Vue Cli</a>是基于Vue.js的前端项目脚手架生成工具，现在主要用的有两个版本，Vue Cli 2 和Vue Cli 3，折两个版本的cli生成的项目目录和相关配置都不太一样，本次实战将会采用最新的Vue Cli 3版本。</p><h3 id="3-前端UL框架WuUI"><a href="#3-前端UL框架WuUI" class="headerlink" title="3.前端UL框架WuUI"></a>3.前端UL框架WuUI</h3><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5ce413f70001aab209000500.jpg" alt="WuUI图片"><br><a href="https://weui.io/" target="_blank" rel="noopener">WeUI</a>是一套微信视觉体验一致的基础杨式库，由微信官方设计团队为微信网页和微信小程序量身设计，我们采用WeUI主要是为了让我们的页面风格更贴近微信的风格。</p><h3 id="4-前端动画效果Animate-css"><a href="#4-前端动画效果Animate-css" class="headerlink" title="4.前端动画效果Animate.css"></a>4.前端动画效果Animate.css</h3><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5ce41561000118f910540414.jpg" alt="Animate.css图片"><br>[Animate.css]是一个使用CSS3的animatin制作的动画效果的开源CSS效果集合，里面预设了很多种常用的动画，且使用非常简单，我们在项目中主要用来实现一些特效动画，以及结合vue-router实现各种页面转场效果。</p><h3 id="5-Node-js和Express"><a href="#5-Node-js和Express" class="headerlink" title="5.Node.js和Express"></a>5.Node.js和Express</h3><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5ce41a890001f40608000500.jpg" alt="Express图片"><br>Node.js我就不多说了，它为前端工程师打开了后端的大门。<a href="http://expressjs.com/" target="_blank" rel="noopener">Express</a>是一个保持最小规模的灵活的Node.js web应用程序开发框架（说白了就是后端的MAC框架，如果大家接触过Java的<a href="https://baike.baidu.com/item/SSH/5400403" target="_blank" rel="noopener">SSH</a>，或者是<a href="https://baike.baidu.com/item/SSM/18801167?fr=aladdin" target="_blank" rel="noopener">SSM</a>应该很好理解），为web和移动应用程序提供了一组强大的功能。优点在于灵活，结合Express Generator，可以轻松的实现后端项目框架，我们在项目中的后台逻辑都是基于Express来编写，包括路由控制，API管理，数据库封装，以及登陆效验，以及登陆效验，状态保存等等。</p><h3 id="6-后端数据库MongoDB"><a href="#6-后端数据库MongoDB" class="headerlink" title="6.后端数据库MongoDB"></a>6.后端数据库MongoDB</h3><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5ce41af40001dc3005400340.jpg" alt="MongoDB图片"><br>MongoDB是一个基于分布式文件存储的数据库，是当前NoSQL数据库产品中最热门的一种。我们实战项目的数据库建模包括Post表、User表、Chat表等等，都是借助于<a href="https://mongoosejs.com/" target="_blank" rel="noopener">mongoose</a>是MongoDB的一个对象模型工具，封装了MongoDB对文档的一些增删改查等常用方法，让Node.js操作MongoDB数据库变得更加容易（说白了就是用面向对象的思想去操作数据库，而且还没有关系型数据库的.sql脚本，用起来更加轻便）。<br>所以我们的后端技术栈可以理解为：Node.js+Express+MongoDB<br><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5ce41cce0001500406000400.jpg" alt="MongoDB图片"></p><h3 id="7-PWA离线应用"><a href="#7-PWA离线应用" class="headerlink" title="7.PWA离线应用"></a>7.PWA离线应用</h3><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5cde62180001811206400377.jpg" alt="MongoDB图片"><br>PWA（progressing web app），渐进式网页应用程序，是Google在2016年Google/O大会上提出的下一代web应用模型，并在随后的日子里迅速发展。<br>一个PWA应用首先是一个网页，可以通过web技术编写一个网页应用。随后添加上App Manifest 和 Service Worker来实现PWA的安装和离线等功能。<br>我们在项目的收尾阶段，会将项目构建成一个PWA应用，看起来更像是”APP”。</p><h3 id="8-阿里云部署"><a href="#8-阿里云部署" class="headerlink" title="8.阿里云部署"></a>8.阿里云部署</h3><p><img src="https://raw.githubusercontent.com/chenkuna/img-folder/master/5ce41e890001af2b03000200.jpg" alt="MongoDB图片"><br>为了使大家掌握更加完整的项目部署相关知识，我们的实战项目将会真实的部署在阿里云上面，同时会教大家：购买阿里云———&gt;配置FTP功能———&gt;配置<a href="https://www.npmjs.com/package/pm2" target="_blank" rel="noopener">pm2</a>管理工具———&gt;项目发布的一条龙服务。让大家真实的体会到自己的项目在线上环境中的运行。</p><p>微信：ck2211314  做的不好还请多指教感谢  有需要到我得地方 可以加我微信 也可以交个朋友</p><script src="https://utteranc.es/client.js" repo="nusr/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;微信：ck2211314  做的不好还请多指教感谢  有需要到我得地方 可以加我微信 也可以交个朋友&lt;/p&gt;
-&lt;script src=&quot;https://utteranc.es/client.js&quot; repo=&quot;nusr/blog&quot; issue-term=&quot;pathname&quot;
+        &lt;h1 id=&quot;项目技术栈介绍&quot;&gt;&lt;a href=&quot;#项目技术栈介绍&quot; class=&quot;headerlink&quot; title=&quot;项目技术栈介绍&quot;&gt;&lt;/a&gt;项目技术栈介绍&lt;/h1&gt;&lt;h3 id=&quot;1-前端框架Vue-js和全家桶&quot;&gt;&lt;a href=&quot;#1-前端框架Vue-js和全家桶&quot;
       
     
     </summary>
