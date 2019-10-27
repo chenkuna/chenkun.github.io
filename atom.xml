@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chenkun.de/"/>
-  <updated>2019-10-19T09:40:48.780Z</updated>
+  <updated>2019-10-27T02:54:00.440Z</updated>
   <id>https://chenkun.de/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>webapp实战美团开发 03 持续更新.....</title>
+    <link href="https://chenkun.de/2019/10/26/webapp03/"/>
+    <id>https://chenkun.de/2019/10/26/webapp03/</id>
+    <published>2019-10-26T14:50:36.000Z</published>
+    <updated>2019-10-27T02:54:00.440Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>能生存下来的物种，并不是那些最强壮的，也不是那些最聪明的，而是那些对变化作出快速反应的<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;————达尔文</p></blockquote><p>工欲善其事必先利其器。在开发一个完整的项目之前，准备一个完整的开发环境是非常重要的。当然如果你是前端大佬，可能这些环境早已用的滚瓜烂熟；但是如果你是刚入坑前端，就跟着我一步一步把环境搭建起来；</p><h3 id="1-安装代码编辑器Sublime-Text-3"><a href="#1-安装代码编辑器Sublime-Text-3" class="headerlink" title="1.安装代码编辑器Sublime Text 3"></a>1.安装代码编辑器Sublime Text 3</h3><p><img src="https://github.com/chenkuna/img-folder/blob/master/5ce4b7d80001154e17200900.jpg?raw=true" alt="编辑器" title="Pandao editor.md"><br>下载地址 <a href="https://www.sublimetext.com/3" target="_blank" rel="noopener">https://www.sublimetext.com/3</a>,可以选择自己的操作系统平台进行安装。</p><h4 id="谈谈代码编辑器的选择"><a href="#谈谈代码编辑器的选择" class="headerlink" title="谈谈代码编辑器的选择"></a>谈谈代码编辑器的选择</h4><p>当前流行的代码编辑器主要有： <a href="https://code.visualstudio.com" target="_blank" rel="noopener">Visual Studio Code</a>,<a href="https://www.sublimetext.com/3" target="_blank" rel="noopener">Sublime Text</a>,<a href="https://www.jetbrains.com/webstorm/" target="_blank" rel="noopener">WebStorm</a>三种，笔者觉得代码编辑器完全由自己的喜好和习惯决定，并没有一个完全正确的，正所谓萝卜青菜各有所爱。从当前的趋势看来，Visual Studio Code 的使用者更多一些，这可能是得益于精美的界面风格和完善的插件生态，笔者之前也是一直用的这款编辑器；WebStorm的功能也很强大，但是太过笨重。这次之所以没有用这两个而是选择Sublime Text，是为了体验一下新鲜的事物，总有点喜新厌旧的感觉。从效果上来看，Sublime Text更加轻便，如果长时间操作，也不会有卡顿的感觉。</p><h3 id="2-下载Node-js"><a href="#2-下载Node-js" class="headerlink" title="2.下载Node.js"></a>2.下载Node.js</h3><p>下载地址<a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a><br><img src="https://github.com/chenkuna/img-folder/blob/master/5ce4bc2000011a9d04960386.jpg?raw=true" alt="Node.js" title="Pandao editor.md"><br>安装的时候注意要选择Add to PATH，这样才能在命令行终端使用node命令。安装完了Node.js之后就有了Npm包管理工具，但是鉴于国内的一些网络问题，可以选择使用CNPM(淘宝镜像)来安装相关的模板，在后面的项目实战中我们会使用<code>cnpm</code>来安装我们的项目依赖。</p><blockquote><p>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p></blockquote><h3 id="3-下载安装MongoDB"><a href="#3-下载安装MongoDB" class="headerlink" title="3.下载安装MongoDB"></a>3.下载安装MongoDB</h3><p>下载地址：<a href="https://www.mongodb.com/download-center" target="_blank" rel="noopener">MongoDB</a>,在Server选项下，选择自己操作系统平台的进行安装。<br><img src="https://github.com/chenkuna/img-folder/blob/master/5ce4bdea0001cd1211050487.jpg?raw=true" alt="MongoDB" title="Pandao editor.md"><br>window安装界面：<br><img src="https://github.com/chenkuna/img-folder/blob/master/5ce4be580001e76e04980388.jpg?raw=true" alt="Node.js" title="Pandao editor.md"><br>一路下一步，选择合适的安装目录。<br><img src="https://github.com/chenkuna/img-folder/blob/master/5ce4c0ed0001839404960384.jpg?raw=true" alt="Node.js" title="Pandao editor.md"><br>注意这里lnstall MongoDB Compass(可视化工具),勾选这个选项会下载一个MongoDB的可视化工具，如果网络情况不太好的话可能会花很长的时间，所以不建议勾选。可以选择一个基于Node.js开发的MongoDB可视化工具<a href="https://adminmongo.markmoffat.com" target="_blank" rel="noopener">adminmongo</a></p><h3 id="启动和关闭MongoDB"><a href="#启动和关闭MongoDB" class="headerlink" title="启动和关闭MongoDB"></a>启动和关闭MongoDB</h3><p>安装完MongoDB后，以管理模式启动CMD，切换到MongoDB的安装目录，并执行命令：</p><blockquote><p>mongo.exe –dbpath &quot;D:\mongodb\data\db&quot; –logpath &quot;D:\mongodb\logs\log.txt&quot;</p></blockquote><ul><li><p>-dbpath:指定数据库文件的存放路径，<code>\data\db</code>路径没有的话需要自己新建一个</p></li><li><p>-logpath:指定了日志文件的存放路径。<br>此方法在当前的窗口启动MongoDB，使用ctrl+c即可结束服务；如果想让服务器长期在后台运行，可以使用：</p><blockquote><p>mongod.exe –dbpath “D:\mongodb\data\db” –logpath “D:\mongodb\logs\log.txt” –install -serviceName “MongoDB”</p></blockquote></li><li><p>-install:指定作为一个Windows服务安装<br>然后执行启动命令：</p></li></ul><blockquote><p>net start MongoDB<br><img src="https://github.com/chenkuna/img-folder/blob/master/5ce4ef580001655a06630431.jpg?raw=true" alt="MongoDB" title="Pandao editor.md"><br>停止命令：<br>net stop MongoDB</p></blockquote><h3 id="安装adminmongo"><a href="#安装adminmongo" class="headerlink" title="安装adminmongo"></a>安装adminmongo</h3><p><img src="https://github.com/chenkuna/img-folder/blob/master/5ce4e7cd0001434a09780521.jpg?raw=true" alt="MongoDB" title="Pandao editor.md"><br>adminmongo是一个MongoDB的基于网页版的可视化管理工具，使用方便，安装简单。可以直接在GitHub上下载使用，Github地址:<a href="https://github.com/mrvautin/adminMongo" target="_blank" rel="noopener">adminmongo</a>。使用git或者是下载源码zip：</p><blockquote><p>git clone <a href="https://github.com/mrvautin/adminMongo.git" target="_blank" rel="noopener">https://github.com/mrvautin/adminMongo.git</a></p></blockquote><p>安装相关模块</p><blockquote><p>cd adminMongo<br>cnpm install</p></blockquote><p>启动服务：</p><blockquote><p>npm start </p></blockquote><p>访问<a href="http://127.0.0.1:1234即可使用，第一次使用时需要配置MongoDB数据库connection，这个我们会在后面讲解。" target="_blank" rel="noopener">http://127.0.0.1:1234即可使用，第一次使用时需要配置MongoDB数据库connection，这个我们会在后面讲解。</a><br><img src="https://github.com/chenkuna/img-folder/blob/master/5ce4e95a0001fea917010652.jpg?raw=true" alt="MongoDB" title="Pandao editor.md"></p><h3 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h3><p>本章主要讲解了环境准备工作，包括代码编辑器的Sublime Text的安装，以及相关编辑器的介绍，Node.js安装和MongoDB安装和使用方法。到这里我们的开发环境就已经搭建完成了，后面我们来看下屏幕适配方案的选择。<br>微信：ck2211314  做的不好还请多指教感谢  有需要到我得地方 可以加我微信 也可以交个朋友</p><script src="https://utteranc.es/client.js" repo="nusr/blog" issue-term="pathname" theme="github-light" crossorigin="anonymous" async></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;能生存下来的物种，并不是那些最强壮的，也不是那些最聪明的，而是那些对变化作出快速反应的&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp
+      
+    
+    </summary>
+    
+    
+      <category term="webapp" scheme="https://chenkun.de/tags/webapp/"/>
+    
+  </entry>
   
   <entry>
     <title>前端常见面试题2</title>
