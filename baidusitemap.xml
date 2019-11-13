@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://chenkun.de/2019/10/27/webapp04/</loc>
+    <lastmod>2019-11-13</lastmod>
+  </url>  <url>
+    <loc>https://chenkun.de/2019/11/11/webapp05/</loc>
+    <lastmod>2019-11-12</lastmod>
+  </url>  <url>
     <loc>https://chenkun.de/2019/10/26/webapp03/</loc>
     <lastmod>2019-10-27</lastmod>
-  </url>  <url>
-    <loc>https://chenkun.de/2019/07/09/my-first-blog/</loc>
-    <lastmod>2019-10-26</lastmod>
   </url>  <url>
     <loc>https://chenkun.de/2019/10/16/site/</loc>
     <lastmod>2019-10-19</lastmod>
